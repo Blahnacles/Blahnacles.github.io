@@ -20,7 +20,7 @@ function swap(){
 function tabify(){
     var url = document.getElementById("term").value;
     if (url !== "") {
-        url = "https://www.ultimate-guitar.com/search.php?search_type=title&value="+url;
+        url = "https://tabs.ultimate-guitar.com/search.php?search_type=title&value="+url;
         document.getElementById("ug").href = url;
     }
     else{
